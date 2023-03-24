@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #1F2937; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    flex: auto;
+}
+
+.navbar {
+    display: flex;
+    list-style: none ;
+}
+
+.container-top{
+    display: flex;
+}
