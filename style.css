@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -9,8 +8,11 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
     flex: auto;
+    padding: 20px;
+    margin: -10px;
+    background-color: #1F2937;
+
 }
 
 .navbar {
@@ -20,8 +22,77 @@ body {
 
 .container-top{
     display: flex;
+    align-items: flex-start;
+    flex: auto;
+    justify-content: center;
+    background-color: #1F2937;
+    margin: -10px;
+    padding-bottom: 80px;
 }
 
+.container-top-left{
+    display:flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+    padding: 8px;
+    max-width: 600px;
+}
+
+.container-top-left button{
+    align-self: flex-start;
+    background-color: #3882F6 ;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 4px 15px;
+    border: none;
+    font-weight: bold;}
+
+.container-top-right{
+    padding-top:70px;
+}
+
+.container-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937 ;
+}
+
+#info-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.mid-cards{
+    display: flex;
+    gap: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote {
+    margin: 50px 0px;
+    padding: 30px 20px 20px 5px;
+    background-color: #E5E7Eb;
+    color: #1f2937;
+    /* border-radius: 30px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+#author {
+    align-self: flex-end;
+}
 
 .main-text{
     font-size: 48px;
