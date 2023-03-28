@@ -88,8 +88,9 @@ button {
     font-size: 26px;
     font-style: italic;
     font-weight: 200;
-
-}
+    padding: 50px 500px;
+    /* max-width: 1500px; */
+    align-self: center;}
 
 #author {
     align-self: flex-end;
